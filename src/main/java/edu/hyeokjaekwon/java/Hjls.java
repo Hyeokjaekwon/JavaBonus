@@ -81,10 +81,10 @@ public class Hjls{
 			
 			if (file.isDirectory())	
 				System.out.print("/");
-			else if (Files.isSymbolicLink(file.toPath()))	
-				System.out.print("@");
 			else if (file.isFile())	
 				System.out.print("*");
+			else if (Files.isSymbolicLink(file.toPath()))	
+				System.out.print("@");
 		}
 		
 		if (islOption){
