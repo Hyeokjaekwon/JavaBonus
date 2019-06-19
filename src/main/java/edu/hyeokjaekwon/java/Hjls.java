@@ -72,7 +72,6 @@ public class Hjls{
 			System.exit(-1);
 		}
 	}
-
 	/**
 	 * @param file to print.
 	 * @throws IOException
